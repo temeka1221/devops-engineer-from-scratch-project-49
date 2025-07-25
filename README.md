@@ -29,3 +29,9 @@
 
   [![asciicast](https://asciinema.org/a/n5mf4WK2AYlO50vgjJUY3v8ls.svg)](https://asciinema.org/a/n5mf4WK2AYlO50vgjJUY3v8ls)
 </details>
+
+<details>
+  <summary>Prime number</summary>
+
+  [![asciicast](https://asciinema.org/a/yhMI7XrKVnKo7Y4j52PFf8dZG.svg)](https://asciinema.org/a/yhMI7XrKVnKo7Y4j52PFf8dZG)
+</details>
