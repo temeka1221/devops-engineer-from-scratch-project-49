@@ -1,3 +1,3 @@
-from . import calc, even
+from . import calc, even, gcd
 
-__all__ = ["calc", "even"]
+__all__ = ["calc", "even", "gcd"]
