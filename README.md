@@ -17,4 +17,9 @@
   
   [![asciicast](https://asciinema.org/a/5gysMBWcFI6GQDtnHOYnqgGhg.svg)](https://asciinema.org/a/5gysMBWcFI6GQDtnHOYnqgGhg)
 </details>
-  
+
+<details>
+  <summary>Greatest commont divisor</summary>
+
+  [![asciicast](https://asciinema.org/a/XddW5wmLIZMhP3E3uokQcjiUy.svg)](https://asciinema.org/a/XddW5wmLIZMhP3E3uokQcjiUy)
+</details>
