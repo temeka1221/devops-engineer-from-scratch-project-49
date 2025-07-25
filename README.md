@@ -23,3 +23,9 @@
 
   [![asciicast](https://asciinema.org/a/XddW5wmLIZMhP3E3uokQcjiUy.svg)](https://asciinema.org/a/XddW5wmLIZMhP3E3uokQcjiUy)
 </details>
+
+<details>
+  <summary>Arithmetic progression</summary>
+
+  [![asciicast](https://asciinema.org/a/n5mf4WK2AYlO50vgjJUY3v8ls.svg)](https://asciinema.org/a/n5mf4WK2AYlO50vgjJUY3v8ls)
+</details>
