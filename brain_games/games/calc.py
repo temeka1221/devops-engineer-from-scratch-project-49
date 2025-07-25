@@ -13,10 +13,11 @@ _OPERATIONS = {
 
 def generate_round() -> tuple[str, str]:
     """
-    Генерирует один раунд игры.
+    Генерирует одно арифметическое выражение и ответ к нему.
+
     :return:
-        question= строка вида "a op b"
-        correct= правильный ответ в виде строки
+        question: строка вида "a op b"
+        correct: правильный ответ в виде строки
     """
     a, b = random.randint(1, 100), random.randint(1, 100)
     op = random.choice(list(_OPERATIONS))
