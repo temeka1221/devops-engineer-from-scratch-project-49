@@ -16,7 +16,7 @@ def is_even(num: int) -> bool:
     return num % 2 == 0
 
 
-def generate_round() -> tuple[int, str]:
+def generate_round() -> tuple[str, str]:
     """
     Генерирует случайное число и корректный ответ.
 
@@ -26,4 +26,4 @@ def generate_round() -> tuple[int, str]:
     """
     question = random.randint(1, 100)
     correct = "yes" if is_even(question) else "no"
-    return question, correct
+    return str(question), correct
