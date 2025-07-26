@@ -2,7 +2,7 @@
 
 import random
 
-DESCRIPTION = 'Answer "yes" if the number is even, otherwise "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(num: int) -> bool:
