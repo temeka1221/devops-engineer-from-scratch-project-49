@@ -1,4 +1,6 @@
 # Brain-games
+Requires:
+Python>=3.12
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/temeka1221/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/temeka1221/devops-engineer-from-scratch-project-49/actions)
@@ -38,6 +40,11 @@
 
   [![asciicast](https://asciinema.org/a/yhMI7XrKVnKo7Y4j52PFf8dZG.svg)](https://asciinema.org/a/yhMI7XrKVnKo7Y4j52PFf8dZG)
 </details>
+<details>
+  <summary>Run games w/o uv</summary>
+
+  [![asciicast](https://asciinema.org/a/dedtiRXgQsVOAyN6W5UIZfNsT.svg)](https://asciinema.org/a/dedtiRXgQsVOAyN6W5UIZfNsT)
+</details>
 
 ### Setup
 ```bash
@@ -48,15 +55,15 @@ make install # создаёт виртуальное окружение и ус�
 ```
 ### Games
 ```bash
-make brain-even # чёт-нечёт
+brain-even # чёт-нечёт
 
-make brain-calc # калькулятор
+brain-calc # калькулятор
 
-make brain-gcd # НОД
+brain-gcd # НОД
 
-make brain-progression # прогрессия
+brain-progression # прогрессия
 
-make brain-prime # простое число
+brain-prime # простое число
 ```
 
 ### Author
