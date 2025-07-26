@@ -35,3 +35,23 @@
 
   [![asciicast](https://asciinema.org/a/yhMI7XrKVnKo7Y4j52PFf8dZG.svg)](https://asciinema.org/a/yhMI7XrKVnKo7Y4j52PFf8dZG)
 </details>
+
+### Setup
+```bash
+git clone git@github.com:temeka1221/devops-engineer-from-scratch-project-49.git
+```
+```bash
+make install # создаёт виртуальное окружение и устанавливает зависимости
+```
+### Games
+```bash
+make brain-even # чёт-нечёт
+
+make brain-calc # калькулятор
+
+make brain-gcd # НОД
+
+make brain-progression # прогрессия
+
+make brain-prime # простое число
+```
