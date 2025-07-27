@@ -6,6 +6,8 @@
 import random
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+PRIME_OPERAND_MIN = 1
+PRIME_OPERAND_MAX = 1000
 
 
 def is_prime(num: int) -> bool:
@@ -38,6 +40,6 @@ def generate_round() -> tuple[str, str]:
         question: число в виде строки
         correct: "yes" если простое, иначе "no"
     """
-    question = random.randint(1, 1000)
+    question = random.randint(PRIME_OPERAND_MIN, PRIME_OPERAND_MAX)
     correct = "yes" if is_prime(question) else "no"
     return str(question), correct

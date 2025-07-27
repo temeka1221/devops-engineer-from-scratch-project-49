@@ -2,6 +2,8 @@
 
 import random
 
+from brain_games.games.constants import OPERAND_MAX, OPERAND_MIN
+
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
@@ -24,6 +26,6 @@ def generate_round() -> tuple[str, str]:
         question: случайное число от 1 до 100
         correct: строку "yes" или "no" в зависимости от четности
     """
-    question = random.randint(1, 100)
+    question = random.randint(OPERAND_MIN, OPERAND_MAX)
     correct = "yes" if is_even(question) else "no"
     return str(question), correct
