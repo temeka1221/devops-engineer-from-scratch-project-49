@@ -8,7 +8,7 @@ def welcome_user() -> str:
     return name
 
 
-def ask_question(question: int) -> str:
+def ask_question(question: str) -> str:
     print(f"Question: {question}")
     return prompt.string("Your answer: ").strip().lower()
 
@@ -25,7 +25,7 @@ def run(game: callable, rounds: int = 3) -> None:
                 f"Correct answer was '{correct}'."
             )
             print(f"Let's try again, {name}!")
-            return
+            break
         print("Correct!")
-
-    print(f"Congratulations, {name}!")
+    else:
+        print(f"Congratulations, {name}!")
