@@ -24,7 +24,7 @@ Python>=3.12
 </details>
 
 <details>
-  <summary>Greatest commont divisor</summary>
+  <summary>Greatest common divisor</summary>
 
   [![asciicast](https://asciinema.org/a/XddW5wmLIZMhP3E3uokQcjiUy.svg)](https://asciinema.org/a/XddW5wmLIZMhP3E3uokQcjiUy)
 </details>
